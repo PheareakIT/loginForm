@@ -12,20 +12,22 @@ body {
 }
 
 .login-container {
-   background-color: white;
+   background-color: rgba(0,0,0,0.2);
    padding: 40px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    border-radius: 8px;
+   z-index: -1;
 }
 
 .login-form {
    max-width: 300px;
+   width: 300px;
    margin: auto;
 }
 
 .login-form h2 {
    margin-bottom: 20px;
-   color: #333;
+   color: #fff;
 }
 
 .input-group {
@@ -35,7 +37,7 @@ body {
 .input-group label {
    display: block;
    margin-bottom: 5px;
-   color: #333;
+   color: #fff;
 }
 
 .input-group input {
