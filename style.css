@@ -1,9 +1,8 @@
 body {
    font-family: Arial, sans-serif;
-   background-image: url("/forrest.gif");
+   background-image: url("./img/sea.gif");
    background-repeat: no-repeat;
    background-size: cover;
-   /*background-color: #f4f4f4;*/
    display: flex;
    justify-content: center;
    align-items: center;
